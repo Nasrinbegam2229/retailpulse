@@ -1,0 +1,13 @@
+streamlit>=1.50
+pandas>=2.1
+numpy>=1.26
+scikit-learn>=1.4
+scipy>=1.11
+statsmodels>=0.14
+plotly>=5.20
+matplotlib>=3.8
+openpyxl>=3.1
+shap>=0.45
+# optional extras (uncomment if you want them):
+# prophet>=1.1        # adds Prophet to the forecast comparison automatically
+# mlflow>=2.12        # set USE_MLFLOW=1 to mirror runs to MLflow

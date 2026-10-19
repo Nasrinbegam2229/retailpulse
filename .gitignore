@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.ipynb_checkpoints/
+mlruns/
+artifacts/*.json
+.pytest_cache/
+.DS_Store
+# raw files over ~50 MB should not be committed; processed/ IS committed so the live demo can start fast
+data/users.db

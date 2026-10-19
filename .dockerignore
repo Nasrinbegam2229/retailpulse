@@ -1,0 +1,25 @@
+# keep the image small and keep secrets out of it
+.git
+.github
+.venv
+venv
+__pycache__
+*.pyc
+.pytest_cache
+.ipynb_checkpoints
+.vscode
+.env
+tests
+notebooks
+airflow
+mlruns
+# raw 44 MB Excel file: not needed at run time (the processed dataset is what the app loads)
+data/raw/*
+!data/raw/.gitkeep
+# user accounts must never be baked into an image
+data/users.db
+users
+Dockerfile
+docker-compose.yml
+*.rar
+*.zip
